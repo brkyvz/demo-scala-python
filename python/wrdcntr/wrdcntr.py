@@ -7,4 +7,6 @@ class WordCounter():
         self.sc = sc
         
     def count(self, file):
-        return sc.textFile(file).flatMap(lambda line: line.split()).map(lambda word: (word, 1)).countByKey()
+        return self.sc.textFile(file)\
+            .flatMap(lambda line: line.split())\
+            .map(lambda word: (word, 1)).countByKey()

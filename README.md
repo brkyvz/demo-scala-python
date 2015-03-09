@@ -1,1 +1,2 @@
-## Every Spark Package must have a readme in order to be published.
+## demo-scala-python
+This is a Spark Package used for testing.
