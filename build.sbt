@@ -3,18 +3,18 @@
 
 scalaVersion := "2.10.4"
 
-sparkVersion := "1.2.1"
+sparkVersion := "1.3.0"
 
-version := "0.1.1"
+version := "0.1.3"
 
-// spAppendScalaVersion := true
+spAppendScalaVersion := true
 
 // change the value below to change the directory where your zip artifact will be created
 spDistDirectory := target.value
 
 licenses := Seq("Apache-2.0" -> url("https://github.com/brkyvz/demo-scala-python/blob/master/LICENSE"))
 
-credentials += Credentials(Path.userHome / ".ivy2" / ".sbtcredentials")
+credentials += Credentials(Path.userHome / ".ivy2" / ".sbtcredentials3")
 
 sparkComponents += "core"
 
